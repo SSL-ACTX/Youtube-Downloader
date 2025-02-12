@@ -9,7 +9,7 @@ import math
 from googleapiclient.discovery import build
 
 # Set up YouTube API client
-API_KEY = 'AIzaSyAGy4JIAffaH_Ezo1pfWl90N-b3LTG5uh0' # Replace with your actual API key
+API_KEY = 'YOUR_API_KEY' # Replace with your actual API key
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 # Find yt-dlp executable
